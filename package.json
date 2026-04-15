@@ -1,5 +1,5 @@
 {
-  "name": "jimeng-cli",
+  "name": "@yang0/jimeng-cli",
   "version": "0.1.0",
   "type": "module",
   "description": "API-first CLI for Jimeng image and video generation workflows.",
@@ -18,6 +18,17 @@
     "image-generation",
     "video-generation"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang0/jimeng-cli.git"
+  },
+  "homepage": "https://github.com/yang0/jimeng-cli#readme",
+  "bugs": {
+    "url": "https://github.com/yang0/jimeng-cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=20"
   },
@@ -39,7 +50,7 @@
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   },
-  "main": "index.js",
+  "main": "dist/cli.js",
   "directories": {
     "test": "test"
   },
